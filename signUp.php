@@ -7,7 +7,10 @@
 	$pwd = $_POST['pwd'];
 
 	echo $first."<br>";
-	echo $last;."<br>";
-	echo $uid;."<br>";
-	echo $pwd;."<br>";
+	echo $last."<br>";
+	echo $uid."<br>";
+	echo $pwd."<br>";
+
+	var_dump($_POST);
+	die();
 ?>
